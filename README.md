@@ -31,7 +31,6 @@ The script looks for <code>libshizuku.so</code> (from the Shizuku app) and runs 
 <ul>
   <li>Android device with root access</li>
   <li>Shizuku app installed</li>
-  <li>Shell tools like: <code>getprop</code>, <code>find</code>, <code>chmod</code>, <code>tee</code></li>
 </ul>
 
 <h3>Tested On</h3>
