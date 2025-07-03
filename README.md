@@ -1,4 +1,4 @@
-العربية → [README_AR.md](README_AR.md)
+<p align="center"><a href="README_AR.md">العربية</a> | english</p>
 
 # Shizuku Auto Start - Shell Module
 
