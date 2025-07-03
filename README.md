@@ -1,4 +1,4 @@
-<p align="center"><a href="README_AR.md">العربية</a> | english</p>
+<p align="center"><a href="README_AR.md">العربية</a> | English</p>
 
 # Shizuku Auto Start - Shell Module
 
