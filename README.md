@@ -4,7 +4,7 @@
 
 # Shizuku Auto Start - Shell Module
 
-#**What does this module do**
+**What does this module do**
 
 This module automatically starts Shizuku at device boot. No need to open the app or run commands manually.
 
