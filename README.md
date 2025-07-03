@@ -52,7 +52,7 @@ The script looks for <code>libshizuku.so</code> (from the Shizuku app) and runs 
 
 <h3>Module Files</h3>
 <div align="center">
-  <table width="80%" border="1" cellspacing="0" cellpadding="8">
+  <table width="80%" cellspacing="0" cellpadding="8">
     <thead>
       <tr>
         <th align="center" width="50%">File</th>
