@@ -1,4 +1,4 @@
-<div dir="rtl">
+
 <h4><p align="center"><a href="README.md">English</a> | العربية</p></h4>
 
 <h2 align="center">مشغل Shizuku التلقائي</h2>
@@ -71,5 +71,4 @@
       </tr>
     </tbody>
   </table>
-</div>
 </div>
