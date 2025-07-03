@@ -1,49 +1,77 @@
 <p align="center"><a href="README_AR.md">العربية</a> | English</p>
 
----
+<hr>
 
-# Shizuku Auto Start - Shell Module
+<h1 align="center">Shizuku Auto Start - Shell Module</h1>
 
-**What does this module do**
+<h3>What does this module do</h3>
+<p>This module automatically starts Shizuku at device boot. No need to open the app or run commands manually.</p>
 
-This module automatically starts Shizuku at device boot. No need to open the app or run commands manually.
+<h3>What is this project</h3>
+<p>
+A simple Shell-based module. When installed, it auto-runs <code>service.sh</code> after every boot.<br>
+The script looks for <code>libshizuku.so</code> (from the Shizuku app) and runs it.
+</p>
 
-**What is this project**
+<h3>How it works</h3>
+<ol>
+  <li>Waits for the system to fully boot.</li>
+  <li>Waits 5 more seconds.</li>
+  <li>Searches for <code>libshizuku.so</code> under <code>/data/app/</code>.</li>
+  <li>If found:
+    <ul>
+      <li>Makes it executable.</li>
+      <li>Executes it.</li>
+    </ul>
+  </li>
+  <li>Logs everything into <code>shizuku_exec.log</code>.</li>
+</ol>
 
-A simple Shell-based module. When installed, it auto-runs `service.sh` after every boot.  
-The script looks for `libshizuku.so` (from the Shizuku app) and runs it.
+<h3>Requirements</h3>
+<ul>
+  <li>Android device with root access</li>
+  <li>Shizuku app installed</li>
+  <li>Shell tools like: <code>getprop</code>, <code>find</code>, <code>chmod</code>, <code>tee</code></li>
+</ul>
 
-**How it works**
+<h3>Tested On</h3>
+<ul>
+  <li>Redmi Note 11 SE
+    <ul>
+      <li>Rooted using Magisk</li>
+    </ul>
+  </li>
+</ul>
 
-1. Waits for the system to fully boot.  
-2. Waits 5 more seconds.  
-3. Searches for `libshizuku.so` under `/data/app/`.  
-4. If found:  
-   - Makes it executable.  
-   - Executes it.  
-5. Logs everything into `shizuku_exec.log`.
+<h3>Important Notes</h3>
+<ul>
+  <li>Only tested on Magisk</li>
+  <li>Not guaranteed to work on KernelSU, APatch, or other custom environments</li>
+  <li>Use outside Magisk at your own risk</li>
+</ul>
 
-**Requirements**
-
-- Android device with root access  
-- Shizuku app installed  
-- Shell tools like: `getprop`, `find`, `chmod`, `tee`
-
-**Tested On**
-
-- Redmi Note 11 SE  
-  - Rooted using Magisk
-
-**Important Notes**
-
-- Only tested on Magisk  
-- Not guaranteed to work on KernelSU, APatch, or other custom environments  
-- Use outside Magisk at your own risk
-
-**Module Files**
-
-| File               | Description                             |
-|--------------------|-----------------------------------------|
-| `service.sh`       | Main script – auto-runs after boot      |
-| `shizuku_exec.log` | Log file – created automatically        |
-| `module.prop`      | Metadata file for Magisk module         |
+<h3>Module Files</h3>
+<div align="center">
+  <table width="80%" border="1" cellspacing="0" cellpadding="8">
+    <thead>
+      <tr>
+        <th align="center" width="50%">File</th>
+        <th align="center" width="50%">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center"><code>service.sh</code></td>
+        <td align="center">Main script – auto-runs after boot</td>
+      </tr>
+      <tr>
+        <td align="center"><code>shizuku_exec.log</code></td>
+        <td align="center">Log file – created automatically</td>
+      </tr>
+      <tr>
+        <td align="center"><code>module.prop</code></td>
+        <td align="center">Metadata file for Magisk module</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
