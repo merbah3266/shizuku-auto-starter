@@ -1,7 +1,7 @@
 <div dir="rtl">
 <h2><p align="center"><a href="README.md">English</a> | العربية</p></h2>
 
-<h1 align="center">تشغيل Shizuku تلقائيًا</h1>
+<h1 align="center">مشغل Shizuku التلقائي</h1>
 
 <h3>ما الذي تقوم به هذه الوحدة؟</h3>
 <p>
