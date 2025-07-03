@@ -1,6 +1,8 @@
-<h2><p align="center"><a href="README_AR.md">العربية</a> | English</p></h2>
+<h4 align="center">
+  <a href="README_AR.md">العربية</a> | English
+</h4>
 
-<h1 align="center" style="font-size: 10px;">Shizuku Auto Starter</h1>
+<h2 align="center" style="font-size: 10px;">Shizuku Auto Starter</h2>
 
 <h3>What does this module do</h3>
 <p>This module automatically starts Shizuku at device boot. No need to open the app or run commands manually.</p>
