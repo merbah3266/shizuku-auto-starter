@@ -32,7 +32,6 @@
 <ul>
   <li>جهاز أندرويد بصلاحيات root</li>
   <li>تطبيق Shizuku مثبت</li>
-  <li>أدوات Shell مثل: <code>getprop</code>، <code>find</code>، <code>chmod</code>، <code>tee</code></li>
 </ul>
 
 <h3>تم اختباره على</h3>
