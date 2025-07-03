@@ -1,3 +1,4 @@
+<div dir="rtl">
 <h2><p align="center"><a href="README.md">English</a> | العربية</p></h2>
 
 <h1 align="center">تشغيل Shizuku تلقائيًا - وحدة Shell</h1>
@@ -70,4 +71,5 @@
       </tr>
     </tbody>
   </table>
+</div>
 </div>
