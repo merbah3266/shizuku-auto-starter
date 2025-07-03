@@ -1,6 +1,4 @@
-<p align="center"><a href="README_AR.md">العربية</a> | English</p>
-
-<hr>
+<h1><p align="center"><a href="README_AR.md">العربية</a> | English</p></h1>
 
 <h1 align="center">Shizuku Auto Start - Shell Module</h1>
 
@@ -36,10 +34,7 @@ The script looks for <code>libshizuku.so</code> (from the Shizuku app) and runs 
 
 <h3>Tested On</h3>
 <ul>
-  <li>Redmi Note 11 SE
-    <ul>
-      <li>Rooted using Magisk</li>
-    </ul>
+  <li>Redmi Note 11 SE (Rooted using Magisk)
   </li>
 </ul>
 
