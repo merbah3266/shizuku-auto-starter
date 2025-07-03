@@ -1,5 +1,5 @@
 <h4 align="center">
-  <a href="README_AR.md">العربية</a> | English
+  <p><a href="README_AR.md">العربية</a> | English</p>
 </h4>
 
 <h2 align="center" style="font-size: 10px;">Shizuku Auto Starter</h2>
