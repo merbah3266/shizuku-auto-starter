@@ -19,7 +19,7 @@ The script looks for <code>libshizuku.so</code> (from the Shizuku app) and runs 
   <li>Waits 5 more seconds.</li>
   <li>Searches for <code>libshizuku.so</code> under <code>/data/app/</code>.</li>
   <li>If found:
-    <ul>
+    <ul type="disc">
       <li>Makes it executable.</li>
       <li>Executes it.</li>
     </ul>
