@@ -20,7 +20,7 @@
   <li>ينتظر 5 ثوانٍ إضافية.</li>
   <li>يبحث عن <code>libshizuku.so</code> داخل <code>/data/app/</code>.</li>
   <li>إذا وُجد:
-    <ul>
+    <ul type="disc">
       <li>يمنحه صلاحية التنفيذ.</li>
       <li>يقوم بتنفيذه.</li>
     </ul>
