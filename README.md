@@ -48,3 +48,6 @@ The script looks for `libshizuku.so` (from the Shizuku app) and runs it.
 | `service.sh`         | Main script – auto-runs after boot |
 | `shizuku_exec.log`   | Log file – created automatically  |
 | `module.prop`        | Metadata file for Magisk module   |
+> [!WARNING]
+> Use of this module is entirely **at your own risk**.  
+> The developer is not responsible for any damage to your device or data resulting from improper or unsupported use.
