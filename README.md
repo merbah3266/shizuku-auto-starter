@@ -1,6 +1,9 @@
-<h4 align="center">
-  <p><a href="README_AR.md">العربية</a> | English</p>
-</h4>
+<h2>Language</h2>
+
+<ul>
+  <li>English</li>
+  <li><a href="README_AR.md">العربية</a></li>
+</ul>
 
 <h2 align="center" style="font-size: 10px;">Shizuku Auto Starter</h2>
 
