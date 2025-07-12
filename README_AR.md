@@ -1,5 +1,9 @@
+<h2>اللغات</h2>
 
-<h4><p align="center"><a href="README.md">English</a> | العربية</p></h4>
+<ul align="right">
+  <li><a href="README.md">English</a></li>
+  <li>العربية</li>
+</ul>
 
 <h2 align="center">مشغل Shizuku التلقائي</h2>
 
@@ -36,7 +40,7 @@
 
 <h3>تم اختباره على</h3>
 <ul>
-  <li>Redmi Note 11 SE (مروّت باستخدام Magisk)</li>
+  <li align="right">Redmi Note 11 SE (مروّت باستخدام Magisk)</li>
 </ul>
 
 <h3>ملاحظات مهمة</h3>
