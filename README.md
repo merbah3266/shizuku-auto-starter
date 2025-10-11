@@ -48,6 +48,17 @@ The script looks for `libshizuku.so` (from the Shizuku app) and runs it.
 | `service.sh`         | Main script – auto-runs after boot |
 | `shizuku_exec.log`   | Log file – created automatically  |
 | `module.prop`        | Metadata file for Magisk module   |
+
+### Other Download Options
+
+You can get our module directly from MMRL using the button below:
+
+<p align="center">
+  <a href="https://mmrl.dev/repository/ssmithSSR/Shizuku-Auto-Starter">
+    <img src="./badge.svg" alt="Get it on MMRL">
+  </a>
+</p>
+
 > [!WARNING]
 > Use of this module is entirely **at your own risk**.  
 > The developer is not responsible for any damage to your device or data resulting from improper or unsupported use.
