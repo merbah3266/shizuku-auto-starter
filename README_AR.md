@@ -55,7 +55,7 @@
 
 <p align="center">
   <a href="https://mmrl.dev/repository/ssmithSSR/Shizuku-Auto-Starter">
-    <img src="./badge.svg" alt="Get it on MMRL">
+    <img src="https://raw.githubusercontent.com/merbah3266/Shizuku-Auto-Starter/main/badge.svg" alt="Get it on MMRL">
   </a>
 </p>
 
