@@ -6,6 +6,12 @@
 
 <h1 align="center"><sub>Shizuku Auto Starter</sub></h1>
 
+<p align="center">
+  <a href="https://github.com/merbah3266/shizuku-auto-starter/releases/tag/v1.0">
+    <img src="https://img.shields.io/github/downloads/merbah3266/shizuku-auto-starter/v1.0/total?label=downloads&color=blue&style=flat" alt="downloads">
+  </a>
+</p>
+
 ### What does this module do
 
 This module automatically starts **Shizuku** at device boot.  
